@@ -169,15 +169,16 @@
     margin-left: 40px;
 }
 .y-video{
-    position: relative;
-    overflow: hidden;
-    padding-top: 32px;
+    /* padding-top: 32px;
     margin-top: 42px;
-    margin-left: 400px;
+    margin-left: 400px; */
 }
 .main-foo{
-    display: flex;
+    padding: 36px;
+    width: 1440px;
+    height: 60px;
+    background-color: lightgray ;
 }
 .social-link{
-
+    text-align: left;
 }
