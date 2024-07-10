@@ -1,35 +1,155 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
-.banner-logo{
+/* start banner */
+#banner{
+    max-width: 1440px;
+    height: 652px; 
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center ;
     
-   width: 100%;
+    
+    
 }
-
-.img1{
-    width: 100%;
-    height: 652px;
-}
-.child-img{
-    position: relative;
-}
-.my-logo{
-    width: 240px;
-    height: 240px;
-    position: absolute;
-    top: -600px;
-    left: 550px;
+.banner-container{
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
-.my-slogaan{
-    position: relative;
-}
-.slogaan{
+.logo-container{
     width: 240px;
     height: 240px;
-    position: absolute;
-    top: -200px;
-    left: 550px;
+}
+
+.text-container{
+    margin-top: 36px;
+}
+.slogan1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+.slogan2{
+    color: #757575;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn{
+    border-radius: 8px;
+    padding: 15px 40px 15px 40px;
+    letter-spacing: 5px;
+    background: #000;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn-box{
+    margin-top: 40px;
+    text-align: center;
+}
+/* End banner */
+.more-about{
+    width: 998px;
+    height: 1500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    background-color: #ededed;
+    /* display: flex; */
+    
+    /* flex-direction: column;
+    align-items: center; */
+}
+.web-que{
+    margin-top: 30px;
+    text-align: center;
+}
+.ans-que{
+    margin-top: 30px;
+    text-align: center;
+}
+.sobar-boro-baba{
+    
+    border-radius: 2rem;
+    margin: 20px 6rem;
+    text-align: center;
+    
+}
+.baba-no-one{
+    background-color:white;
+    border-radius: 2rem;
+    display: flex;
+}
+.babar-boro-chele{
+    flex-direction: column;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.babar-boro-chele h3{
+    
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.babar-boro-chele p{
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.boro-cheler-chele{
+    
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.boro-cheler-chele a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* middle div */
+
+.baba-no-two{
+    background-color:white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.babar-boro-chele3{
+    /* flex-direction: column; */
+    text-align: right;
+    padding-right: 40px;
+}
+
+.babar-boro-chele3 h3{
+    
+    /* margin-top: 30px;
+    margin-right: 20px; */
+}
+.babar-boro-chele3 p{
+    /* margin-top: 30px;
+    margin-left: 20px;
+    text-align: justify; */
+}
+.boro-cheler-chele3{
+    
+    /* margin-top: 50px;
+    margin-left: 30px; */
+}
+.boro-cheler-chele3 a{
+    
+    /* color: rgb(0, 0, 0);
+    text-decoration: none; */
 }
