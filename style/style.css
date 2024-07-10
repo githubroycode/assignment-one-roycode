@@ -164,8 +164,9 @@
     width: 851px;
     height: 151px;
 }
-.txt-cont{
+.txt-cont h2{
     text-align: center;
+    margin-left: 40px;
 }
 .y-video{
     position: relative;
@@ -173,4 +174,10 @@
     padding-top: 32px;
     margin-top: 42px;
     margin-left: 400px;
+}
+.main-foo{
+    display: flex;
+}
+.social-link{
+
 }
