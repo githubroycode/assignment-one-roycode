@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner-logo{
+    
+   width: 100%;
+}
+
+.img1{
+    width: 100%;
+    height: 652px;
+}
+.child-img{
+    position: relative;
+}
+.my-logo{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: -600px;
+    left: 550px;
+
+}
+.my-slogaan{
+    position: relative;
+}
+.slogaan{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: -200px;
+    left: 550px;
+}
